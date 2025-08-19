@@ -28,7 +28,7 @@ const Menulist = ({ items }) => {
               <span>{info.name} </span>
               <br />₹
               <span>
-                {info.price / 100 || info.defaultPrice}
+                {info.price / 100 || info.defaultPrice / 100}
               </span>
             </div>
             <p className="text-sm">{info.description}</p>
